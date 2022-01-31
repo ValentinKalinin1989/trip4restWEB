@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip4rest</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="search_page.html">Составить маршрут</a>
+    <a href="options.html">Настройки</a>
+    <a href="login.html">Выйти</a>
+</nav>
+<br>
+<br>
+<form action="index.html">
+    <image src="" alt="аватар" style="width:100px;height:100px;"><br>
+        <input type="file" id="avatar" name="avatar" accept="image/*"><br><br>
+        <label for="email">email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">номер телефона:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="9-999-999-99-99"
+               pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"><br><br>
+        <label><strong>Отправлять уведомления на:</strong></label><br>
+        <input type="checkbox" id="notification1" name="notification1" value="email">
+        <label for="notification1">email</label><br>
+        <input type="checkbox" id="notification2" name="notification2" value="telegram">
+        <label for="notification2">telegram</label><br>
+        <input type="checkbox" id="notification3" name="notification3" value="whatsapp">
+        <label for="notification2">whatsapp</label><br>
+        <input type="checkbox" id="notification4" name="notification4" value="vkontakte">
+        <label for="notification2">vkontakte</label><br>
+        <input type="checkbox" id="notification5" name="notification5" value="telegram">
+        <label for="notification2">telegram</label><br><br>
+        <input type="submit" value="Обновить">
+</form>
+</body>
+</html>

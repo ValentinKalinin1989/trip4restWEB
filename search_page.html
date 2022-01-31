@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip4rest</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="search_page.html">Составить маршрут</a>
+    <a href="options.html">Настройки</a>
+    <a href="login.html">Выйти</a>
+</nav>
+</body>
+<form>
+    <label><strong>Профили: </strong></label><br>
+    <input type="checkbox" id="profile1" name="profile1" value="alkotrip">
+    <label for="profile1">Alkotrip</label><br>
+    <input type="checkbox" id="profile2" name="profile2" value="fitnesstrip">
+    <label for="profile2">Fitnesstrip</label><br>
+    <input type="checkbox" id="profile3" name="profile3" value="extremetrip">
+    <label for="profile3">Extremetrip</label><br>
+    <input type="checkbox" id="profile4" name="profile4" value="foodtrip">
+    <label for="profile4">Foodtrip</label><br>
+    <br>
+    <label><strong>Координаты: </strong></label><br>
+    <label for="latitude">Широта :</label><br>
+    <input type="text" id="latitude" name="latitude"><br>
+    <label for="longitude">Долгота :</label><br>
+    <input type="text" id="longitude" name="longitude"><br>
+    <br>
+    <label for="radius"><strong>Радиус</strong>, в км:</label><br>
+    <label> 0 </label><input type="range" id="radius" name="radius" min="0" max="100"><label> 100 </label><br>
+    <br>
+    <input type="submit" value="Сгенрировать пути"> <input type="reset" value="Сбросить">
+</form>
+</html>
